@@ -1,0 +1,50 @@
+.about {
+    font-family: 'raleway';
+    font-style: regular;
+    font-size: 36px;
+    font-weight: 400;
+}
+.about-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+  }
+  .about-item {
+   
+    border-radius: 20px;
+    width: 300px;
+    
+    margin: 0 15px;
+  }
+  .about-item-content {
+    padding: 20px;
+  }
+  .about-item-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid #e72424;
+    margin: 0 auto 20px;
+  }
+  .about-item-title {
+ font-family: "Open Sans";
+ font-style: bold;
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .about-item-text p {
+      font-family: "Open Sans";
+      font-style: normal;
+    font-size: 14px;
+    font-weight: 400, regular;
+    color: #000000;
+    text-align: center;
+  }
+  
