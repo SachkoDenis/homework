@@ -31,52 +31,55 @@
   .pricing-wrap {
       display: flex;
       justify-content: space-around;
-      flex-wrap: nowrap;
+      flex-wrap: wrap;
       margin: 0 -15px;
 }
 .pricing-item {
     width: 340px;
+    margin-bottom: 68px;
+
 }
 .pricing-item-content {
-    padding: 20px;
-    /* text-align: center; */
+    
 }
 .pricing-item-tarif {
-    padding: 0 auto;
+    padding: 10px 0;
     border: 1px solid #f5f5f5ff;
     background-color: #333333;
-    max-height: 50px;
+    height: 50px;
     color: #fff;
     font-family: 'Open sans';
     font-style: bold;
     font-weight: 400;
     font-size: 20px;
     text-align: center;
-    vertical-align: middle;
+    
 }
 .pricing-item-cost {
+    padding: 30px 0;
     border: 1px solid #f5f5f5ff;
     background-color: #333333;
-    max-height: 100px;
+    height: 100px;
     color: #fff;
     font-family: 'raleway';
     font-style: bold;
     font-weight: 700;
     font-size: 35px;
     text-align: center;
-    vertical-align: middle;
+    
 }
 .pricing-item-term {
+    padding: 10px 0;
     border: 1px solid #f5f5f5ff;
     background-color: #333333;
-    max-height: 50px;
+    height: 50px;
     color: #fff;
     font-family: 'Open sans';
     font-style: semi bold;
     font-weight: 600;
     font-size: 14px;
     text-align: center;
-    vertical-align: middle;
+    
 }
 .list {
 }
@@ -91,8 +94,6 @@
     font-style: regular;
     font-weight: 400;
     font-size: 14px;
-    /* text-align: center; */
-    /* vertical-align: middle; */
     align-items: center;
 
 }
