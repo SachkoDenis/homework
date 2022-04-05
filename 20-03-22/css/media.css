@@ -1,0 +1,69 @@
+.media{
+    padding: 20px;
+    background-color: #f8efef;
+}
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+.media-left{
+    margin-right: 80px;
+
+    
+}
+  .media-left-title {
+      font-family: "Open Sans";
+      font-size: 20px;
+      font-weight: 700;
+      color: #333333;
+      line-height: 27px;
+      margin-bottom: 14px;
+      text-align: left;
+}
+.media-left p{
+    width: 365px;
+    height: 38px;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #86878B;
+    text-align: left;
+
+}
+.media-right {
+    display: flex;
+    align-items: center;
+    width: 500px;
+    height: 42px;
+}
+.media-right-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+
+
+}
+    .fa-brands {
+        margin-left: 30px;
+        /* color: #fff; */
+        position: relative;
+        z-index: 1;
+    }
+    /* .fa-brands::after{
+        content: "";
+    position:absolute;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.55);   
+    width: 100%; 
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 12;
+    } */
+    .fa-brands_fa-facebook{
+        color: #333333;
+    }

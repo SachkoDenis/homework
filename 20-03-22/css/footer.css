@@ -1,0 +1,23 @@
+.footer {
+    padding: 25px;
+    background-color: #000;
+   
+
+}
+.social-network-item{
+ display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+ 
+}
+.footer-text{
+    width: 130px;
+    height: 15px;
+    color: #fff;
+    font-family: "Open Sans";
+    font-size: 12px;
+    font-weight: 400;
+    display: inline-block;
+}
