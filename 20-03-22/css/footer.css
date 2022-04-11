@@ -5,11 +5,12 @@
 
 }
 .social-network-item{
- display: flex;
-    margin-bottom: 20px;
+    display: flex;
+    justify-content:space-between;
     align-items: center;
-    justify-content: center;
     color: #fff;
+    width: 700px;
+    margin: auto;
  
 }
 .footer-text{
@@ -19,5 +20,9 @@
     font-family: "Open Sans";
     font-size: 12px;
     font-weight: 400;
-    display: inline-block;
+    margin: auto;
+}
+.social-network{
+    margin: auto;
+margin-bottom: 20px;
 }

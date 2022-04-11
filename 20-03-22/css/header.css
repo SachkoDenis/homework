@@ -7,6 +7,7 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+  margin: 0 -15px;
 }
 .logo {
     color: #fff;
@@ -14,6 +15,7 @@
     font-weight: 400;
     font-size: 30px;
     line-height: 35px;
+    margin: 0 15px;
 
 }
 .logo::after{
@@ -26,35 +28,31 @@
 
 }
 .navigation {
-    display: flex;
-    align-items: center;
+   margin: 0 15px;
 }
 .navigation-list {
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     font-family: "Open Sans";
     font-size: 15px;
     font-weight: 600;
-    line-height: 20px;
-    color: #FFFFFF;
-    align-items: center;
-    margin: auto;
+    
 }
 .navigation-list-item {
-    margin-left: 48px;
-    /* position: absolute; */
     width: 100px;
+    margin: 0 20px;
     height: 20px;
-    color: #fff;
-    border: 3px solid #000;
     align-items: center;
     margin: auto;
-    
+    color: rgba(255, 255, 255, 0.8);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
 }
 .navigation-list-item:hover{
-    border: 3px solid #fff;
-    /* position: absolute; */
-    
-
+    border: 1px solid rgba(255, 255, 255, 0.8);
 }
 .navigation-list-item:first-child{
     margin-left: 0;

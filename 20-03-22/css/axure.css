@@ -10,7 +10,15 @@
     color: #fff
     
   }
-  .axure-item-frame{
+  .axure-item-title::after{
+    content: "";
+    display: block;
+    margin: 30px auto;
+    width: 64px;
+    height: 2px;
+    background-color: #fff;
+  }
+  /* .axure-item-frame{
     width: 64px;
     height: 2px;
     border-bottom: 1px, solid;
@@ -18,7 +26,7 @@
     margin: auto;
     margin-bottom: 34px;
   
-  }
+  } */
   .axure-item-text {
     font-family: "raleway";
     font-style: regular;

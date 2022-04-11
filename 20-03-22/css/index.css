@@ -6,12 +6,15 @@
 @import url(../css/header.css);
 @import url(../css/media.css);
 @import url(../css/footer.css);
+@import url(../css/axit.css);
+@import url(../css/contact.css);
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   list-style: none;
   text-decoration: none;
+  color: currentColor;
 }
 html {
     font-family: "Open Sans", "Raleway", sans-serif;
@@ -44,8 +47,7 @@ html {
     background: url(../img/background\ 1.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
-    /* position: relative; */
+    background-size: cover;
   } 
   .axure::after{
     content: "";
